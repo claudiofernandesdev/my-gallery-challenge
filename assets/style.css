@@ -122,8 +122,23 @@ footer p span a {
 	font-weight: 700;
 }
 
+@media screen and (max-width: 840px) {
+    .gallery {
+        margin: 1.5rem auto;
+        grid-auto-rows: 12rem;
+        grid-gap: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
+    .gallery {
+        margin: 1.25rem auto;
+        grid-auto-rows: 10rem;
+        grid-gap: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .hero img {
         width: 6.875rem;
         height: 6.875rem;
@@ -164,3 +179,5 @@ footer p span a {
 		font-size: 0.65rem;
 	}
 }
+
+
